@@ -1,0 +1,52 @@
+.menu-bar-top {
+	position: absolute;
+	right: 30px;
+	top: 0px;
+}
+.menu-bar-top ul {
+	list-style-type: none;
+}
+.menu-bar-top li {
+	display: inline;
+	font-family: arial, sans-serif;
+	color: black;
+	padding-left: 10px;
+}
+#my-thumbnail {
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+}
+.logo-and-search {
+	width: 450px;
+	margin: auto;
+	margin-top: 120px;
+}
+#main-logo {
+	width: 383px;
+	/*margin: auto;*/
+	margin-left: 33px;
+}
+#search-form {
+	width: 450px;
+	margin-top: 15px;
+}
+#search-box {
+	width: 450px;
+	height: 30px;
+	margin: auto;
+	border: 1px solid #C0C0C0;
+}
+#buttons {
+	width: 260px;
+	margin: auto;
+	margin-top: 25px;
+}
+#buttons input {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: #868686;
+	border: none;
+	padding: 8px;
+}
