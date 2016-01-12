@@ -140,9 +140,47 @@
 	color: #6E6E6E;
 	font-size: 13px;
 }
+.ad, .result {
+	position: relative;
+	top: 20px;
+	left: 90px;
+	margin: 20px 0;
+}
 h1 {
 	color: #1A0DAB;
 	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+}
+h2 {
+	color: #006621;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.ad h2::before {
+	content: "Ad";
+	background-color: #EFC439;
+	color: white;
+	border-radius: 2px;
+	margin-right: 2px;
+}
+span.rating-5 {
+	color: #E7711B;
+	padding-right: 2px;
+}
+span.rating-5::after {
+	content: url('five-stars.png');
+}
+span.rating-bumf {
+	color: #808080;
+	font-size: small;
+}
+p {
+	width: 512px;
+	color: #545454;
+	font-size: small;
+	margin: 0;
 }
 .links-bar-bottom {
 	position: absolute;
