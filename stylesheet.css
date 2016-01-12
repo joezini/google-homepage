@@ -1,3 +1,6 @@
+* {
+	font-family: arial, sans-serif;
+}
 .menu-bar-top {
 	position: absolute;
 	right: 30px;
@@ -22,7 +25,6 @@
 }
 .links li {
 	display: inline;
-	font-family: arial, sans-serif;
 	font-size: 14px;
 	color: #6E6E6E;
 	padding-left: 10px;
@@ -40,7 +42,6 @@
 	border: 1px solid #E5E5E5;
 	width: 588px;
 	height: 38px;
-	font-family: arial, sans-serif;
 	font-size: 16px;
 	padding-left: 10px;
 }
@@ -53,9 +54,11 @@
 	border-radius: 3px;
 }
 .results-header ul {
-	position: relative;
-	right: -1000px;
-	top: -16px; 	
+	/*position: relative;
+	right: -1000px;*/
+	float: right;
+	margin-top: 3px; 
+	margin-right: 40px;
 	display: inline-block;
 }
 #my-thumbnail {
@@ -83,7 +86,6 @@
 	height: 30px;
 	margin: auto;
 	border: 1px solid #C0C0C0;
-	font-family: arial, sans-serif;
 	font-size: 15px;
 	font-weight: 600;
 }
@@ -93,12 +95,54 @@
 	margin-top: 25px;
 }
 #buttons input {
-	font-family: arial, sans-serif;
 	font-size: 13px;
 	font-weight: 700;
 	color: #868686;
 	border: none;
 	padding: 8px;
+}
+.categories {
+	display: inline-block;
+	border-bottom: 1px solid #D8D8D8;
+	width: 100%;
+}
+.categories ul {
+	display: inline-block;
+}
+.categories li {
+	position: relative;
+	top: 40px;
+	left: 30px;
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px 15px;
+	color: #6E6E6E;
+	font-size: 13px;
+}
+.categories .selected {
+	color: #3B78E7;
+	border-bottom: 4px solid #3B78E7;
+}
+/*.categories .dropdown:after {
+	content: url('dropdown-triangle.png');
+}*/
+.settings {
+	position: relative;
+	display: inline-block;
+	float: right;
+	top: -10px;
+	right: 30px;
+}
+.results-count {
+	position: relative;
+	top: 12px;
+	left: 90px;
+	color: #6E6E6E;
+	font-size: 13px;
+}
+h1 {
+	color: #1A0DAB;
+	font-size: 18px;
 }
 .links-bar-bottom {
 	position: absolute;
